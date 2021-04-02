@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {Grid} from "@material-ui/core"
 import { SearchBox } from "../Components/SearchBox.jsx";
 import Card from "../Components/Card"
+import {Link} from "react-router-dom";
 
 export default class MoviesListPage extends Component {
   constructor() {
@@ -35,7 +36,10 @@ export default class MoviesListPage extends Component {
         </Grid>
         {filterdMovies.map((movie) => (
           <Grid item lg={4}>
+            <Link to={`/${movie.id}`}>
+
             <Card key={movie.id} movies={movie} />
+            </Link>
           </Grid>
         ))}
         );

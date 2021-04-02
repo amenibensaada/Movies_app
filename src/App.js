@@ -6,7 +6,7 @@ import {
   Route,
   useHistory,
 } from "react-router-dom";
-import MoviesDetails from "./Components/MoviesDetails";
+import MoviesDetails from "./pages/MoviesDetails";
 import MoviesListPage from "./pages/MoviesListPage";
 
 class App extends Component {
