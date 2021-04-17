@@ -36,12 +36,12 @@ export default function MoviesDetails() {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    fetch(`http://api.tvmaze.com/shows/${movieId}`)
+    fetch(`https://api.tvmaze.com/shows/${movieId}`)
       .then((Response) => Response.json())
       .then((movies) => {
         setData(movies);
       });
-    fetch(`http://api.tvmaze.com/shows/${movieId}/episodes`)
+    fetch(`https://api.tvmaze.com/shows/${movieId}/episodes`)
       .then((Response) => Response.json())
       .then((movies) => setMovies(movies));
   }, []);

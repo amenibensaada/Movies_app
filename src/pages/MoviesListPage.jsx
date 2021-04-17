@@ -14,7 +14,7 @@ export default class MoviesListPage extends Component {
     };
   }
   componentDidMount() {
-    fetch("http://api.tvmaze.com/shows")
+    fetch("https://api.tvmaze.com/shows")
       .then((Response) => Response.json())
       .then((movies) => this.setState({ movies }));
   }
