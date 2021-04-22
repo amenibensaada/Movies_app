@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 export default class MoviesListPage extends Component {
   constructor() {
     super();
-
     this.state = {
       movies: [],
       searchField: "",
