@@ -110,7 +110,7 @@ function ResponsiveDrawer(props) {
   const { movies: movieId } = useParams();
   const [data, setData] = useState({});
   useEffect(() => {
-    fetch(`http://api.tvmaze.com/shows/${movieId}`)
+    fetch(`https://api.tvmaze.com/shows/${movieId}`)
       .then((Response) => Response.json())
       .then((movies) => {
         setData(movies);
