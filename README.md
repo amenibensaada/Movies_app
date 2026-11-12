@@ -2,7 +2,7 @@
 
 An earlier React application for browsing TVMaze shows, filtering/searching the catalogue and viewing show/episode details. Uses React Router and Material UI. The historical repository name is Movies_app; the data source is TVMaze television shows.
 
-[Current portfolio](https://amenibensaadaportfolio.netlify.app/?utm_source=github&utm_medium=profile&utm_campaign=personal_brand) · Educational React project.
+[Current portfolio](https://amenibensaada.tn/?utm_source=github&utm_medium=profile&utm_campaign=personal_brand) · Educational React project.
 
 ## Run
 
